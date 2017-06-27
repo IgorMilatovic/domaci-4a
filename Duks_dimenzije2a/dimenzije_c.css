@@ -1,0 +1,112 @@
+
+@font-face {
+	font-family: "CZARN";
+	src: url(CZARN.ttf);
+}
+
+body {
+	background-image: url(textil.jpg);
+}
+
+.nav {
+	height: 40px;
+	text-align: center;
+	background-color: #ecc6d9;
+	box-shadow: 0 0 4px 2px #999;
+}
+
+li {
+	display: inline-block;
+	font-size: 1.1em;
+	list-style-type: none;
+	text-align: center;
+	margin: 10px 80px 10px 40px;
+}
+
+a {
+	text-decoration: none;
+	color: #4d0000;
+	text-shadow: 1px 1px 2px #595959;
+}
+
+a:hover {
+	color: brown;
+}
+
+article {
+	width: 600px;
+	margin: 30px auto;
+	background-color: white;
+	box-shadow: 0 0 4px 2px #999;
+}
+
+.allcontent {
+	padding: 0 20px;
+}
+
+h1, h3, p, td {
+	font-family: "CZARN";
+}
+
+p {
+	font-size: 0.9em;
+}
+
+h1 {
+	font-size: 1.4em;
+	margin-top: 5px;
+	padding-top: 30px;
+}
+
+.saveti {
+	font-size: 1em;
+	padding-bottom: 1px;
+}
+
+.img {
+	float: right;
+}
+
+.p1 {
+	padding-bottom: 1px;
+}
+
+.paragraf {
+	width: 220px;
+	text-align: justify;
+	padding-bottom: 10px;
+}
+
+hr {
+	height: 2px;
+	background-color: black;
+}
+
+.drugi_h3 {
+	margin: 15px 0;
+	font-size: 0.95em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td {
+    text-align: center;
+    font-size: 0.9em;
+    border-collapse: collapse;
+  	height: 32px;
+}
+
+tr:nth-child(2n+3) {
+    background: #eee;
+}
+
+caption {
+	caption-side: bottom;
+	text-align: left;
+	margin: 20px 0;
+	font-size: 0.95em;
+}
+
